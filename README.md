@@ -5,13 +5,15 @@ Rails version: v7.0.4
 
 ## Steps to run the solution
 
-1 - Open the rails console by typing `rails c` on the project root folder.
-2 - Assign a variable to use as the input data for the algorithm process it and produce the output. (e.g.: `input`)
-3 - Call the service using the following command informing the previously assigned input variable as initialization param. Or you can just replace input with the actual input string directly.
+1. Open the rails console by typing `rails c` on the project root folder.
+
+2. Assign a variable to use as the input data for the algorithm process it and produce the output. (e.g.: `input`)
+
+3. Call the service using the following command informing the previously assigned input variable as initialization param. Or you can just replace input with the actual input string directly.
 ```
 List::CreateService.new(input).call
 ```
-4 - The output will show up in the console.
+4. The output will show up in the console.
 
 
 ## Notes about the challenge
